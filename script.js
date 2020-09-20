@@ -19,6 +19,8 @@ function countdown () {
     document.getElementById( 'hours' ).textContent = formatTime( hours );
     document.getElementById( 'minutes' ).textContent = formatTime( minutes );
     document.getElementById( 'seconds' ).textContent = formatTime( seconds );
+
+    // console.log( days, hours, minutes, seconds );
 }
 
 setInterval( countdown, 1000 );
