@@ -15,7 +15,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
 }
 
 h1 {
@@ -34,8 +33,6 @@ h1 {
     font-weight: bold;
     font-size: 4rem;
     line-height: 1;
-    /* align-content: center;
-    justify-content: center; */
     margin: 1rem 4rem;
 }
 
@@ -47,4 +44,10 @@ h1 {
     font-size: 1.5rem;
 }
 
+#seconds, #minutes, #hours {
+    width: 90px;
+}
 
+#days {
+    width: 180px;
+}
